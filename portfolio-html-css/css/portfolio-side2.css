@@ -1,0 +1,118 @@
+body{
+    background-image: url(../img/portfolio-billede-3crop.png);
+    background-position-y: 180px;
+    background-position-x: 30px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    font-family: 'Bodoni Moda', serif;
+
+}
+.navbar{
+    display: flex;
+}
+.head-overskrift{
+    display: flex;
+    margin-left: 530px;
+    padding: 20px;
+    color: black;
+
+}
+
+a {
+text-decoration: none;
+color: black;
+
+}
+
+a:hover {
+    text-decoration: underline 1.5px;
+    text-size-adjust: 10%;
+    color: black;
+}
+
+/*dropdown menu starter her*/
+.parent{
+    width: 90%;
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 35px;
+    margin-top: -15px;
+
+    
+    }
+    
+    .dropdown {
+        position:relative;
+        display: inline-block;
+        
+    }
+    
+    .dropbtn {
+        background-color:rgba(255, 255, 255, 0);
+        color: none;
+        padding: 0px;
+        font-size: 16px;
+        border: none;
+        
+      }
+    .active {
+        color: rgb(0, 0, 0);
+    }
+    
+      .dropdown-content {
+        display: none;
+        position:absolute;
+        background-color: #949494b7;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: center;
+        
+    
+      }
+      .dropdown-content a {
+        color: rgb(0, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+    
+      }
+    
+      .dropdown-content a:hover {
+          background-color: rgba(77, 77, 77, 0.233)
+    
+        }
+      .dropdown:hover .dropdown-content {
+          display: block;
+        
+        }
+      .dropdown:hover .dropbtn {
+          background-color: rgba(128, 128, 128, 0)
+        }
+    /*dropdown menu slutter her*/
+    
+
+.overskrift-portfolio-1 {
+    text-align: left;
+    margin-top: 240px;
+    margin-left: 100px;
+    width: 50px;
+    font-size: 300%;
+    font-family: 'Bodoni Moda', serif;
+}
+.some{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    
+}
+.foot{
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    padding: 15px;
+    margin-top: 175px;
+    font-size: 9px;
+  }
+  
